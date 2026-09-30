@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Flutter
+mobile_app/.dart_tool/
+mobile_app/.packages
+mobile_app/build/
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+mobile_app/android/.gradle/
+mobile_app/android/local.properties
+mobile_app/ios/
+*.apk
+*.aab
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+backend/.env
+*.env
+
+# Database binary storage
+database/data/
+*.ibd
+*.sdi
+*.pem

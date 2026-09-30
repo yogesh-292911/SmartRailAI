@@ -1,0 +1,51 @@
+{
+  "accuracy": 0.825,
+  "precision_macro": 0.8085905054579109,
+  "recall_macro": 0.7949377828054298,
+  "f1_macro": 0.8013749338562693,
+  "per_class": {
+    "LOW": {
+      "precision": 0.80625,
+      "recall": 0.7588235294117647,
+      "f1-score": 0.7818181818181819,
+      "support": 170.0
+    },
+    "MEDIUM": {
+      "precision": 0.7545126353790613,
+      "recall": 0.7307692307692307,
+      "f1-score": 0.7424511545293073,
+      "support": 286.0
+    },
+    "HIGH": {
+      "precision": 0.8650088809946714,
+      "recall": 0.8952205882352942,
+      "f1-score": 0.8798554652213189,
+      "support": 544.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "LOW",
+    "MEDIUM",
+    "HIGH"
+  ],
+  "confusion_matrix": [
+    [
+      129,
+      18,
+      23
+    ],
+    [
+      24,
+      209,
+      53
+    ],
+    [
+      7,
+      50,
+      487
+    ]
+  ],
+  "n_train": 4000,
+  "n_test": 1000,
+  "data_note": "Trained on synthetic SmartRail data, not official railway data."
+}
